@@ -1,0 +1,11 @@
+# Site settings
+name: "Lingnik : Taylor J. Meek"
+title: Taylor J. Meek
+email: taylor@lingnik.com
+description: "Taylor is a software engineer and linguist in Portland, OR who fancies the outdoors."
+baseurl: ""
+url: "http://lingnik.com"
+
+# Build settings
+markdown: kramdown
+permalinks: pretty
