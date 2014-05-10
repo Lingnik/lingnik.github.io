@@ -12,6 +12,8 @@ source: ./
 destination: ../master
 safe: false
 
+exclude: build.bash
+
 #Build settings
 markdown: kramdown
 permalinks: pretty
