@@ -14,7 +14,7 @@ What to do when your Laptop or LCD screen/laptop screen goes dark, black, red, o
 {:toc}
 
 
-{% include adsense-ccfl %}
+{% include adsense-ccfl1 %}
 
 ## The Story
 
