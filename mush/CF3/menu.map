@@ -1,0 +1,9 @@
+base referer
+default referer
+rect about.htm       90,30   230,90  "About the MUSH"
+rect roleplay.htm    270,40  450,90  "Roleplay Insight"
+rect cyberpunk.htm   15,90   235,145 "What is Cyberpunk?"
+rect orgs.htm        270,90  555,145 "IC MUSH Organizations"
+rect players.htm     70,146  220,200 "Players and Characters"
+rect admin.htm       275,146 570,195 "MUSH Administration"
+rect getstarted.htm  120,200 430,260 "How to Get Started"
