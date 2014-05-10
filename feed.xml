@@ -3,8 +3,8 @@
   <channel>
     <title>Lingnik : Taylor J. Meek</title>
     <description>Taylor is a software engineer and linguist living in Portland, OR who fancies the outdoors. He currently works for Iberdrola Renewables, the world&#39;s largest wind power owner-operator, as a SCADA analyst.</description>
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://lingnik.github.io</link>
+    <atom:link href="http://lingnik.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Reverse Engineering the Yaesu VX-8DR GPS Interface</title>
@@ -613,8 +613,8 @@ $GPRMC,123223.000,A,4131.2334,N,00021.1216,E,0000.00,291.33,301011,,*3E
 
 </description>
         <pubDate>Sat, 09 Feb 2013 18:09:00 -0800</pubDate>
-        <link>/2013/02/09/reverse-engineering-yaesu-vx-8dr-gps-interface.html</link>
-        <guid isPermaLink="true">/2013/02/09/reverse-engineering-yaesu-vx-8dr-gps-interface.html</guid>
+        <link>http://lingnik.github.io/2013/02/09/reverse-engineering-yaesu-vx-8dr-gps-interface.html</link>
+        <guid isPermaLink="true">http://lingnik.github.io/2013/02/09/reverse-engineering-yaesu-vx-8dr-gps-interface.html</guid>
       </item>
     
       <item>
@@ -627,18 +627,18 @@ $GPRMC,123223.000,A,4131.2334,N,00021.1216,E,0000.00,291.33,301011,,*3E
 
 &lt;h4 id=&quot;files&quot;&gt;Files:&lt;/h4&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-visual-pattern-recognition-and-reading-cc.pdf&quot;&gt;Evidence and Consequences of Feature Detection in the Visual Pattern Recognition of Reading (2008)&lt;/a&gt; (PDF, 2.42MB)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-visual-pattern-recognition-handout-cc.pdf&quot;&gt;Pattern Recognition Handout&lt;/a&gt; (PDF, 301.59KB)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-visual-pattern-recognition-slides-color-cc.pdf&quot;&gt;Visual Pattern Recognition Color&lt;/a&gt; (PDF, 5.87MB)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-visual-pattern-recognition-slides-color-cc.pptx&quot;&gt;Visual Pattern Recognition Color&lt;/a&gt; (PPTX, 5.01MB)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-visual-pattern-recognition-slides-highcontrast-cc.pdf&quot;&gt;Visual Pattern Recognition High Contrast&lt;/a&gt; (PDF, 5.8MB)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-visual-pattern-recognition-slides-highcontrast-cc.pptx&quot;&gt;Visual Pattern Recognition High Contrast&lt;/a&gt; (PPTX, 4.96MB)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-visual-pattern-recognition-and-reading-cc.pdf&quot;&gt;Evidence and Consequences of Feature Detection in the Visual Pattern Recognition of Reading (2008)&lt;/a&gt; (PDF, 2.42MB)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-visual-pattern-recognition-handout-cc.pdf&quot;&gt;Pattern Recognition Handout&lt;/a&gt; (PDF, 301.59KB)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-visual-pattern-recognition-slides-color-cc.pdf&quot;&gt;Visual Pattern Recognition Color&lt;/a&gt; (PDF, 5.87MB)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-visual-pattern-recognition-slides-color-cc.pptx&quot;&gt;Visual Pattern Recognition Color&lt;/a&gt; (PPTX, 5.01MB)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-visual-pattern-recognition-slides-highcontrast-cc.pdf&quot;&gt;Visual Pattern Recognition High Contrast&lt;/a&gt; (PDF, 5.8MB)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-visual-pattern-recognition-slides-highcontrast-cc.pptx&quot;&gt;Visual Pattern Recognition High Contrast&lt;/a&gt; (PPTX, 4.96MB)&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         <pubDate>Mon, 19 Oct 2009 14:49:00 -0700</pubDate>
-        <link>/2009/10/19/visual-pattern-recognition.html</link>
-        <guid isPermaLink="true">/2009/10/19/visual-pattern-recognition.html</guid>
+        <link>http://lingnik.github.io/2009/10/19/visual-pattern-recognition.html</link>
+        <guid isPermaLink="true">http://lingnik.github.io/2009/10/19/visual-pattern-recognition.html</guid>
       </item>
     
       <item>
@@ -719,8 +719,8 @@ WHILE @Start
 &lt;p&gt;As you can see, when the size of each column is the same, there really is no benefit, and as the number of columns grows, it does so exponentially. However, with the method described earlier, as the size of each column grows, it just gets ugly.  &lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Oct 2009 04:12:00 -0700</pubDate>
-        <link>/2009/10/16/a-faster-transact-sql-string-split-function.html</link>
-        <guid isPermaLink="true">/2009/10/16/a-faster-transact-sql-string-split-function.html</guid>
+        <link>http://lingnik.github.io/2009/10/16/a-faster-transact-sql-string-split-function.html</link>
+        <guid isPermaLink="true">http://lingnik.github.io/2009/10/16/a-faster-transact-sql-string-split-function.html</guid>
       </item>
     
       <item>
@@ -729,16 +729,16 @@ WHILE @Start
 
 &lt;h4 id=&quot;files&quot;&gt;Files:&lt;/h4&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-praat-formants-paper.pdf&quot;&gt;Semi-Automated Formant Extraction with Praat&lt;/a&gt; (PDF)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-praat-formants-bruce42column1.pdf&quot;&gt;Appendix: Formant Plot&lt;/a&gt; (PDF)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-praat-formants-bruce42column1.xlsx&quot;&gt;Appendix: Formant Plot&lt;/a&gt; (XLSX)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-praat-formants-extract-formants-tabbed-fast.praat&quot;&gt;Praat Script - Fast&lt;/a&gt; (.praat file)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lingnik.com/assets/taylor-meek-praat-formants-extract-formants-tabbed-slow.praat&quot;&gt;Praat Script - Slow&lt;/a&gt; (.praat file)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-praat-formants-paper.pdf&quot;&gt;Semi-Automated Formant Extraction with Praat&lt;/a&gt; (PDF)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-praat-formants-bruce42column1.pdf&quot;&gt;Appendix: Formant Plot&lt;/a&gt; (PDF)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-praat-formants-bruce42column1.xlsx&quot;&gt;Appendix: Formant Plot&lt;/a&gt; (XLSX)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-praat-formants-extract-formants-tabbed-fast.praat&quot;&gt;Praat Script - Fast&lt;/a&gt; (.praat file)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lingnik.github.io/assets/taylor-meek-praat-formants-extract-formants-tabbed-slow.praat&quot;&gt;Praat Script - Slow&lt;/a&gt; (.praat file)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 02 Jun 2009 14:49:00 -0700</pubDate>
-        <link>/2009/06/02/formant-extraction-with-praat.html</link>
-        <guid isPermaLink="true">/2009/06/02/formant-extraction-with-praat.html</guid>
+        <link>http://lingnik.github.io/2009/06/02/formant-extraction-with-praat.html</link>
+        <guid isPermaLink="true">http://lingnik.github.io/2009/06/02/formant-extraction-with-praat.html</guid>
       </item>
     
       <item>
@@ -828,8 +828,8 @@ WHILE @Start
 
 </description>
         <pubDate>Thu, 23 Sep 2004 05:00:00 -0700</pubDate>
-        <link>/2004/09/23/ccfl-backlight-replacement.html</link>
-        <guid isPermaLink="true">/2004/09/23/ccfl-backlight-replacement.html</guid>
+        <link>http://lingnik.github.io/2004/09/23/ccfl-backlight-replacement.html</link>
+        <guid isPermaLink="true">http://lingnik.github.io/2004/09/23/ccfl-backlight-replacement.html</guid>
       </item>
     
   </channel>

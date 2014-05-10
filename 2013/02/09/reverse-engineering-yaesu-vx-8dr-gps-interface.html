@@ -4,13 +4,44 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Reverse Engineering the Yaesu VX-8DR GPS Interface</title>
+    <title>Reverse Engineering the Yaesu VX-8DR GPS Interface | Lingnik : Taylor J. Meek</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Taylor is a software engineer and linguist living in Portland, OR who fancies the outdoors. He currently works for Iberdrola Renewables, the world's largest wind power owner-operator, as a SCADA analyst.">
-    <link rel="canonical" href="/2013/02/09/reverse-engineering-yaesu-vx-8dr-gps-interface.html">
+    <link rel="canonical" href="http://lingnik.github.io/2013/02/09/reverse-engineering-yaesu-vx-8dr-gps-interface.html">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="http://lingnik.github.io/css/main.css">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-993528-5', 'lingnik.com');
+  ga('send', 'pageview');
+
+</script>
+<script>
+/**
+* Function that tracks a click on an outbound link in Google Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label.
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+     function () {
+     document.location = url;
+     }
+   });
+}
+var trackPopupLink = function(url, params) {
+   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+     function () {
+     window.open(url, '', params);
+     }
+   });
+}
+</script> 
 
 </head>
 
@@ -21,7 +52,7 @@
 
   <div class="wrap">
 
-    <a class="site-title" href="">Lingnik : Taylor J. Meek</a>
+    <a class="site-title" href="http://lingnik.github.io">Lingnik : Taylor J. Meek</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -37,11 +68,11 @@
       </a>
       <div class="trigger">
         
-          <a class="page-link" href="/about/">About</a>
+          <a class="page-link" href="http://lingnik.github.io/about/">About</a>
         
-          <a class="page-link" href="/feed.xml"></a>
+          <a class="page-link" href="http://lingnik.github.io/feed.xml"></a>
         
-          <a class="page-link" href="/index.html"></a>
+          <a class="page-link" href="http://lingnik.github.io/index.html"></a>
         
       </div>
     </nav>
@@ -698,17 +729,17 @@ $GPRMC,123223.000,A,4131.2334,N,00021.1216,E,0000.00,291.33,301011,,*3E
     <div class="footer-col-1 column">
       <ul>
         <li>Taylor J. Meek</li>
-        <li><a href="mailto:taylor.meek@gmail.com">taylor.meek@gmail.com</a></li>
-        <li>&nbsp;</li>
-        <li><a href="http://pgp.mit.edu/pks/lookup?op=vindex&search=0xA9A992FAAB4921BD">0xA9A992FAAB4921BD (MIT)</a></li>
-        <li><a href="http://lingnik.com/assets/0xA9A992FAAB4921BD.asc">0xA9A992FAAB4921BD.asc</a></li>
+        <li>e-mail: <a href="http://www.google.com/recaptcha/mailhide/d?k=0190bueU5Uy0xMnBJk7PIRGQ==&amp;c=HyjjOKctm1ArL40iJb80ycaalQLfd0Ralt1i_luDnkM=" onclick="trackOutboundLink('http://www.google.com/recaptcha/mailhide/email'); window.open('http://www.google.com/recaptcha/mailhide/d?k\0750190bueU5Uy0xMnBJk7PIRGQ\75\75\46c\75HyjjOKctm1ArL40iJb80ycaalQLfd0Ralt1i_luDnkM\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">t...</a>@gmail.com</li>
+        <li>phone: <a href="http://www.google.com/recaptcha/mailhide/d?k=0190bueU5Uy0xMnBJk7PIRGQ==&amp;c=S-QHqpE7d9GBYaUvQU--FEVN3_GGsUXZg8wyphthHnQ=" onclick="trackOutboundLink('http://www.google.com/recaptcha/mailhide/phone'); window.open('http://www.google.com/recaptcha/mailhide/d?k\0750190bueU5Uy0xMnBJk7PIRGQ\75\75\46c\75S-QHqpE7d9GBYaUvQU--FEVN3_GGsUXZg8wyphthHnQ\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this phone number">(971) 2...</a></li>
+        <li><a href="http://pgp.mit.edu/pks/lookup?op=vindex&search=0xA9A992FAAB4921BD" onclick="trackOutboundLink('http://pgp.mit.edu/pks/lookup'; return false;">0xA9A992FAAB4921BD (MIT)</a></li>
+        <li><a href="http://lingnik.github.io/assets/0xA9A992FAAB4921BD.asc">0xA9A992FAAB4921BD.asc</a></li>
       </ul>
     </div>
 
     <div class="footer-col-2 column">
       <ul>
         <li>
-          <a href="https://github.com/lingnik">
+          <a href="https://github.com/lingnik" onclick="trackOutboundLink('https://github.com/lingnik'; return false;">
             <span class="icon github">
               <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
@@ -727,7 +758,7 @@ $GPRMC,123223.000,A,4131.2334,N,00021.1216,E,0000.00,291.33,301011,,*3E
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/lingnik">
+          <a href="https://twitter.com/lingnik" onclick="trackOutboundLink('https://twitter.com/lingnik'; return false;">
             <span class="icon twitter">
               <svg version="1.1" class="twitter-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
@@ -744,7 +775,7 @@ $GPRMC,123223.000,A,4131.2334,N,00021.1216,E,0000.00,291.33,301011,,*3E
           </a>
         </li>
         <li>
-          <a href="https://stackoverflow.com/users/1347421/lingnik">
+          <a href="https://stackoverflow.com/users/1347421/lingnik" onclick="trackOutboundLink('https://stackoverflow.com/users/1347421/lingnik'; return false;">
             <span class="icon stackoverflow">
                 <svg version="1.1" class="twitter-icon-svg" width="16" height="16" viewBox="0 30 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#C2C2C2"><g class="svgGrid" id="svgGrid"><line stroke-width="1" stroke="#FFFFFF" x1="32" x2="32" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="64" x2="64" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="96" x2="96" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="128" x2="128" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="160" x2="160" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="192" x2="192" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="224" x2="224" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="256" x2="256" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="288" x2="288" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="320" x2="320" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="352" x2="352" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="384" x2="384" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="416" x2="416" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="448" x2="448" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="480" x2="480" y1="0" y2="512"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="32" y2="32"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="64" y2="64"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="96" y2="96"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="128" y2="128"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="160" y2="160"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="192" y2="192"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="224" y2="224"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="256" y2="256"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="288" y2="288"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="320" y2="320"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="352" y2="352"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="384" y2="384"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="416" y2="416"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="448" y2="448"/><line stroke-width="1" stroke="#FFFFFF" x1="0" x2="512" y1="480" y2="480"/><rect x="0" y="0" width="512" height="512" fill="none" stroke-width="1" stroke="#FFFFFF"/></g><path d="M 512.00,320.00 L 512.00,512.00 L 0.00,512.00 L 0.00,320.00 L 64.00,320.00 L 64.00,448.00 L 448.00,448.00 L 448.00,320.00 ZM 96.00,352.00L 416.00,352.00L 416.00,416.00L 96.00,416.00zM 103.576,282.733L 117.425,220.251L 429.841,289.499L 415.992,351.981zM 139.829,154.279L 166.875,96.276L 456.891,231.508L 429.845,289.511zM 495.861,180.738 L 456.90,231.513 L 203.027,36.709 L 231.195,0.00 L 260.317,0.00 Z"/></svg>
             </span>
@@ -752,7 +783,7 @@ $GPRMC,123223.000,A,4131.2334,N,00021.1216,E,0000.00,291.33,301011,,*3E
           </a>
         </li>
         <li>
-          <a href="https://www.flickr.com/photos/lingnik/">
+          <a href="https://www.flickr.com/photos/lingnik/" onclick="trackOutboundLink('https://www.flickr.com/photos/lingnik'; return false;">
             <span class="icon flickr">
                   <svg height="16" width="16" viewBox="20 20 1000 857.143" fill="#c2c2c2" xmlns="http://www.w3.org/2000/svg"><path d="M696.384 71.488q66.402 0 113.553 47.151t47.151 113.553v535.68q0 66.402 -47.151 113.553t-113.553 47.151h-535.68q-66.402 0 -113.553 -47.151t-47.151 -113.553v-535.68q0 -66.402 47.151 -113.553t113.553 -47.151h535.68zm-306.9 428.544q0 -49.104 -34.596 -83.7t-83.7 -34.596 -83.7 34.596 -34.596 83.7 34.596 83.7 83.7 34.596 83.7 -34.596 34.596 -83.7zm314.712 0q0 -49.104 -34.596 -83.7t-83.7 -34.596 -83.7 34.596 -34.596 83.7 34.596 83.7 83.7 34.596 83.7 -34.596 34.596 -83.7z"/></svg>
             </span>
@@ -760,7 +791,7 @@ $GPRMC,123223.000,A,4131.2334,N,00021.1216,E,0000.00,291.33,301011,,*3E
           </a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/in/taylormeek">
+            <a href="https://www.linkedin.com/in/taylormeek" onclick="trackOutboundLink('https://www.linkedin.com/in/taylormeek'; return false;">
               <span class="icon linkedin">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#c2c2c2" height="16" width="16" viewBox="0 -15 1000 1000" version="1"><path d="M195.877 .25c-107.717 0 -195.877 88.158 -195.877 195.877l0 607.841c0 107.717 88.158 195.845 195.877 195.845l607.841 0c107.718 0 195.845 -88.127 195.845 -195.845l0 -607.841c0 -107.717 -88.127 -195.877 -195.845 -195.877l-607.841 0zm49.266 164.948c51.648 0 83.461 33.906 84.443 78.475 0 43.585 -32.797 78.444 -85.442 78.444l-.969 0c-50.665 0 -83.412 -34.857 -83.412 -78.444 0 -44.568 33.738 -78.475 85.379 -78.475zm445.08 208.31c99.329 0 173.79 64.922 173.79 204.436l0 260.449l-150.953 0l0 -242.987c0 -61.06 -21.847 -102.718 -76.476 -102.718 -41.704 0 -66.562 28.078 -77.476 55.202 -3.987 9.704 -4.967 23.257 -4.967 36.832l0 253.671l-150.953 0s1.981 -411.613 0 -454.233l150.984 0l0 64.324c20.06 -30.95 55.942 -74.977 136.051 -74.977zm-521.556 10.685l150.953 0l0 454.202l-150.953 0l0 -454.202z"/></svg>
               </span>
