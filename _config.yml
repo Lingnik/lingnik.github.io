@@ -8,6 +8,10 @@ url: "http://lingnik.com"
 username: lingnik
 timezone: America/Los_Angeles
 
-# Build settings
+source: ./
+destination: ../master
+safe: false
+
+#Build settings
 markdown: kramdown
 permalinks: pretty

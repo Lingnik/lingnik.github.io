@@ -2,6 +2,7 @@
 layout: post
 title:  "Replacing an LCD or Laptop CCFL backlight tube/bulb"
 date:   2004-09-23 12:00:00
+alias: [/content/ccfl-backlight-replacement/index.html, /ccfl.htm, /ccfl.html]
 ---
 
 What to do when your Laptop or LCD screen/laptop screen goes dark, black, red, orange, or any other annoying color.

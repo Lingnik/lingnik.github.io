@@ -2,6 +2,7 @@
 layout: post
 title:  "Reverse Engineering the Yaesu VX-8DR GPS Interface"
 date:   2013-02-10 02:09:00
+alias: [/content/reverse-engineering-yaesu-vx-8dr-gps-interface/index.html]
 ---
 
 **UPDATE 2014-04-13** [David Fannin](https://github.com/dfannin) built on this work and came up with some Arduino code that interfaces between the VX-8DR and a Ublox GPS module. You can see more information at his [project's github page](https://github.com/dfannin/arduino-vx8r-gps).
