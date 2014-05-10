@@ -750,18 +750,7 @@ WHILE @Start
 &lt;p&gt;&lt;strong&gt;UPDATE 2004-09-23:&lt;/strong&gt; I have actually replaced my own bulb some time ago! A while after posting this, I found a source for CCFL lamps–&lt;a href=&quot;http://www.mouser.com/&quot;&gt;Mouser Electronics&lt;/a&gt;, based out of Texas. With a catalog the size of a small metro phonebook, they have everything. Soooo. Couple of things: Make /sure/ that you measure your old bulb precisely. Anticipate that the new bulb will have flared tips at both ends. Be gentle when bending the leads, and make certain you form them properly if the old leads were shaped strangely. These little guys are cheaper than expected–less than $20 including shipping for a bulb. That’s about it. Email me if you have more questions, or concerns. Good luck!
 * x&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    &amp;lt;p class=&quot;center&quot;&amp;gt;
-    &amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&amp;lt;!--
-    google_ad_client = &quot;pub-0538590636658555&quot;;
-    /* 728x15 CCFL #1, created 7/27/08 */
-    google_ad_slot = &quot;9355648463&quot;;
-    google_ad_width = 728;
-    google_ad_height = 15;
-    //--&amp;gt;
-    &amp;lt;/script&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;
-    src=&quot;http://pagead2.googlesyndication.com/pagead/show_ads.js&quot;&amp;gt;
-    &amp;lt;/script&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;!--adsense-ccfl1--&gt;
 
 &lt;h2 id=&quot;the-story&quot;&gt;The Story&lt;/h2&gt;
 
@@ -793,18 +782,7 @@ WHILE @Start
 
 &lt;p&gt;Assuming, of course, that the inverter board isn’t bad. But then, at least I know who manufactures them now.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    &amp;lt;p class=&quot;center&quot;&amp;gt;
-    &amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&amp;lt;!--
-    google_ad_client = &quot;pub-0538590636658555&quot;;
-    /* 728x90 CCFL #2, created 7/27/08 */
-    google_ad_slot = &quot;5486029204&quot;;
-    google_ad_width = 728;
-    google_ad_height = 90;
-    //--&amp;gt;
-    &amp;lt;/script&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;
-    src=&quot;http://pagead2.googlesyndication.com/pagead/show_ads.js&quot;&amp;gt;
-    &amp;lt;/script&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;!--adsense-ccfl2--&gt;
 
 &lt;h2 id=&quot;anatomy-of-an-lcd-screen-for-laptops&quot;&gt;Anatomy of an LCD Screen (for laptops)&lt;/h2&gt;
 
@@ -824,18 +802,7 @@ WHILE @Start
 
 &lt;p&gt;The last part of your LCD panel screen is the inverter board for your CCFL. &lt;a href=&quot;http://www.interq.or.jp/japan/se-inoue/e_ckt8.htm&quot;&gt;Here&lt;/a&gt; is a basic diagram for a DC/AC inverter. One thing to note, from what I understand, is that these inverters are not like your typical DC/ACs that may be found for 12VDC-120VAC for running household electronics in a car or somesuch. These produce an output waveform that is nearly a square wave. This is simple, and doesn’t require much to do, but for most electronics equipment, an advanced version producing a pure sine wave is required. The inverter itself just takes input 12VDC, runs it though some hoops and a transformer, and outputs your 120VAC. Understand, though, that as your output (V) increases, your output (W/A) decreases. That is given a basic inverter, of course, which doesn’t deal with the things that a ccfl lamp requires. Like, for example, dimming. And nearly 2,000VAC@5mA, from a 10-20VDC input. What this means is that instead of just having your input DC%2B and ground, there are extra pinouts. For an inverter board similar to mine, it has two 18.0V ± 10% inputs and two grounds. That provides the main power. Power to the inverter board itself is provided by a 5V On/0V Off input. Dimming is controlled with the BL-Adj pin, at 1.0V ~ 5.0V. And of course, the high voltage DC output pin, and the return pin. Boards may vary, but for CCFL controlling, these things are generally common.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    &amp;lt;p class=&quot;center&quot;&amp;gt;
-    &amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&amp;lt;!--
-    google_ad_client = &quot;pub-0538590636658555&quot;;
-    /* 728x90 CCFL #3, created 7/27/08 */
-    google_ad_slot = &quot;9678562132&quot;;
-    google_ad_width = 728;
-    google_ad_height = 90;
-    //--&amp;gt;
-    &amp;lt;/script&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;
-    src=&quot;http://pagead2.googlesyndication.com/pagead/show_ads.js&quot;&amp;gt;
-    &amp;lt;/script&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;!--adsense-ccfl3--&gt;
 
 &lt;h2 id=&quot;ccfl-replacement&quot;&gt;CCFL Replacement&lt;/h2&gt;
 
@@ -850,17 +817,7 @@ WHILE @Start
 
 &lt;p&gt;&lt;strong&gt;Tools&lt;/strong&gt; There will be some tools that will come in handy during all of this. Obviously, a small phillips-head screwdriver, and a set of hex. (My laptop uses a T8 for almost all of the hex-screws. There are maybe three or four phillips in the entire system.) Keep a flathead, preferably a big mutha, on hand for prying things apart, and a small one for maneuvering the locks on cables off. Pliers are handy. Use a long strip of duct tape, doubled around so that you have two tape surfaces, and attach it to your workspace. Put your screws on it, in the order that you took them out. If you want, you can make a diagram of where the screws came from. Keep your parts organized as you take them out, and memorize how you got them out. Do not force things too hard. Tweezers are useful for some small parts, and especially for things that drop in inconvenient spots. One of my tool sets has a pair of teeny-assed pliers, about 2 1/2 inches long and with a total tip area the size of a pen point. These are handy. You’ll also have hex bolts keeping things in the air. I use pliers for these, because I don’t have a nut that fits them. Tighten these are far as you can when you put them back in. Lastly, keep a razor blade on hand, for cutting tape that may be used internally. Oh, and lest I forget: Bright lights, and a flashlight. And a lot of patience.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;        &amp;lt;p&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&amp;lt;!--
-        google_ad_client = &quot;pub-0538590636658555&quot;;
-        /* 728x15 CCFL #4, created 7/27/08 */
-        google_ad_slot = &quot;2360833618&quot;;
-        google_ad_width = 728;
-        google_ad_height = 15;
-        //--&amp;gt;
-        &amp;lt;/script&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;
-        src=&quot;http://pagead2.googlesyndication.com/pagead/show_ads.js&quot;&amp;gt;
-        &amp;lt;/script&amp;gt;&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;!--adsense-ccfl4--&gt;
 
 &lt;h2 id=&quot;sourceslinks&quot;&gt;Sources/Links&lt;/h2&gt;
 
