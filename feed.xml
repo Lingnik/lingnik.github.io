@@ -54,10 +54,10 @@
 &lt;h3 id=&quot;garmin-gpsmap-60csx-serial-interface&quot;&gt;Garmin GPSMAP 60CSx Serial Interface&lt;/h3&gt;
 
 &lt;p&gt;The Garmin 60CSx has a round plug on the back with a four-pin interface. This is a proprietary interface which has several &lt;a href=&quot;https://buy.garmin.com/shop/shop.do?pID=310&quot;&gt;cabling options&lt;/a&gt;, such as a bare cable (010-10082-00, $20.83 on Amazon) ready for custom wiring integrations.
-&lt;img src=&quot;http://www.lingnik.com/system/files/garmin-gpsmap-60csx-serial-interface.png&quot; alt=&quot;Garmin GPSMAP 60CSx Serial Interface Pinout&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://lingnik.com/assets/yaesu/garmin-gpsmap-60csx-serial-interface.png&quot; alt=&quot;Garmin GPSMAP 60CSx Serial Interface Pinout&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In order to mock this up, I built a simple interface cable out of the hand-hacked equivalent of &lt;a href=&quot;https://www.adafruit.com/products/824&quot;&gt;Adafruit’s female-male extension jumper wires&lt;/a&gt;. (I only had male-male and female-female, so I soldered half of a male to half of a female.) The white wire in this photo is the transmit pin from the Garmin, and the black wire is ground.
-&lt;img src=&quot;http://www.lingnik.com/system/files/Garmin_Interface_500px.jpg&quot; alt=&quot;Garmin GPSMAP 60CSx Serial Connection Mockup to MOXA UPort 1150&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://lingnik.com/assets/yaesu/Garmin_Interface_500px.jpg&quot; alt=&quot;Garmin GPSMAP 60CSx Serial Connection Mockup to MOXA UPort 1150&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;With this, I was able to connect this to my PC using an RS232 serial-to-USB adapter, and, using &lt;a href=&quot;http://www.moxa.com/product/download_pcommlite_info.htm&quot;&gt;PComm Lite Terminal Emulator from MOXA&lt;/a&gt;, capture the NMEA strings off the device. I configured the 60CSx (Setup&amp;gt;Interfaces) to output NMEA formatted data and in the advanced settings (Menu&amp;gt;Advanced NMEA Setup), enabled only GPS Status, Waypoint/Route, and left Lat/Lon precision at 4 digits. The 60CSx only supports 4800 baud on the NMEA serial interface, so I used the settings 4800/8/N/1 in PComm, and retrieved the following raw data. I’ve highlighted the relevant strings for what we’ll need later.&lt;/p&gt;
 
@@ -82,13 +82,13 @@ $GPRTE,1,1,c,*37
 
 &lt;p&gt;The Yaesu VX-8DR has a round plug on the top with seven-pin interface. This is a proprietary interface with several &lt;a href=&quot;http://www.universal-radio.com/catalog/ht/0008.html&quot;&gt;cabling options&lt;/a&gt;, such as a bare cable (CT-M11, $23.95 on Universal Radio) ready for custom wiring integrations.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.lingnik.com/system/files/yaesu-ct-m11-cable-pin-numbers.png&quot; alt=&quot;Pin numbers of Yaesu VX-8DR radio transceiver microphone/serial/gps connector&quot; /&gt;
-&lt;img src=&quot;http://www.lingnik.com/system/files/yaesu-vx-8dr-mic-pinout.png&quot; alt=&quot;Pinout table of pin numbers and purpose for Yaesu VX-8DR radio transceiver microphone/serial/gps connector&quot; /&gt;
-&lt;img src=&quot;http://www.lingnik.com/system/files/yaesu-ct-m11-cable-pinout.png&quot; alt=&quot;Wire diagram of Yaesu CT-M11 cable connected to Yaesu VX-8DR radio transceiver&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://lingnik.com/assets/yaesu/yaesu-ct-m11-cable-pin-numbers.png&quot; alt=&quot;Pin numbers of Yaesu VX-8DR radio transceiver microphone/serial/gps connector&quot; /&gt;
+&lt;img src=&quot;http://lingnik.com/assets/yaesu/yaesu-vx-8dr-mic-pinout.png&quot; alt=&quot;Pinout table of pin numbers and purpose for Yaesu VX-8DR radio transceiver microphone/serial/gps connector&quot; /&gt;
+&lt;img src=&quot;http://lingnik.com/assets/yaesu/yaesu-ct-m11-cable-pinout.png&quot; alt=&quot;Wire diagram of Yaesu CT-M11 cable connected to Yaesu VX-8DR radio transceiver&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In order to mock this up, I used a Maxton RPC-Y8R-UF programming cable I picked up from &lt;a href=&quot;http://www.g4hfq.co.uk/links.html&quot;&gt;G4HFQ&lt;/a&gt; (I can’t find the link to buy these cables on his site anymore, however). This is essentially an FTDI cable, which in this case is a three-wire interface (Ground, Rx, and Tx) at 3.3V levels. RS232 is a 5V%2B interface, which exposes the incompatibility between these two devices. The CT-M11 cable from Yaesu exposes all of the pins, which is useful for integrating a custom microphone/speaker interface along with GPS/programming.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.lingnik.com/system/files/Yaesu_Cable_500px.jpg&quot; alt=&quot;Maxton RPC-Y8R-UF cable used to connect to Yaesu VX-8DR over serial TTL&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://lingnik.com/assets/yaesu/Yaesu_Cable_500px.jpg&quot; alt=&quot;Maxton RPC-Y8R-UF cable used to connect to Yaesu VX-8DR over serial TTL&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;At this point, I can connect the VX-8DR to my PC and, using PComm, transmit data to the radio over serial. Configuration settings are 9600/8/N/1 (NOT 4800 baud, another point of incompatibility between these two devices). Enter the APRS GPS menu (press ‘MENU’ once). You will see a compass with no arrow and empty coordinate fields.&lt;/p&gt;
 
@@ -101,7 +101,7 @@ $GPRTE,1,1,c,*37
 
 &lt;p&gt;The Yaesu spits out some information the first time you send it a serial message. Also, the Yaesu displays something on its display!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.lingnik.com/system/files/Yaesu_Bad_500px.jpg&quot; alt=&quot;Photo of Yaesu VX-8DR radio transceiver showing garbage data after receiving improper GPS NMEA sentence&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://lingnik.com/assets/yaesu/Yaesu_Bad_500px.jpg&quot; alt=&quot;Photo of Yaesu VX-8DR radio transceiver showing garbage data after receiving improper GPS NMEA sentence&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;That’s weird. The latitude and longitude are garbled, and speed/altitude are empty. Time to figure out what we sent means, and what we received means.&lt;/p&gt;
 
@@ -342,7 +342,7 @@ $GPRMC,123223.000,A,4131.2334,N,00021.1216,E,0000.00,291.33,301011,,*3E
 
 &lt;p&gt;Here’s proof that it works:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.lingnik.com/system/files/Yaesu_Good_500px.jpg&quot; alt=&quot;Yaesu VX-8DR showing GPS status after correctly receiving a properly formatted GPS NMEA string over a serial TTL connection.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://lingnik.com/assets/yaesu/Yaesu_Good_500px.jpg&quot; alt=&quot;Yaesu VX-8DR showing GPS status after correctly receiving a properly formatted GPS NMEA string over a serial TTL connection.&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;yaesu-vx-8dr-gpgga-nmea-sentence-syntax&quot;&gt;Yaesu VX-8DR $GPGGA NMEA Sentence Syntax&lt;/h3&gt;
 
