@@ -335,17 +335,17 @@ There's no easy way to find out what version of NMEA the VX-8DR (or VX-8GR) supp
    [1]: http://aprs.fi/info/a/KG7BBG-7
    [2]: http://stuartl.longlandclan.yi.org/blog/2012/03/24/yaesu-vx8dr/
    [3]: https://buy.garmin.com/shop/shop.do?pID=310
-   [4]: http://www.lingnik.com/system/files/garmin-gpsmap-60csx-serial-interface.png
+   [4]: http://lingnik.com/assets/yaesu/garmin-gpsmap-60csx-serial-interface.png
    [5]: https://www.adafruit.com/products/824
-   [6]: http://www.lingnik.com/system/files/Garmin_Interface_500px.jpg
+   [6]: http://lingnik.com/assets/yaesu/Garmin_Interface_500px.jpg
    [7]: http://www.moxa.com/product/download_pcommlite_info.htm
    [8]: http://www.universal-radio.com/catalog/ht/0008.html
-   [9]: http://www.lingnik.com/system/files/yaesu-ct-m11-cable-pin-numbers.png
-   [10]: http://www.lingnik.com/system/files/yaesu-vx-8dr-mic-pinout.png
-   [11]: http://www.lingnik.com/system/files/yaesu-ct-m11-cable-pinout.png
+   [9]: http://lingnik.com/assets/yaesu/yaesu-ct-m11-cable-pin-numbers.png
+   [10]: http://lingnik.com/assets/yaesu/yaesu-vx-8dr-mic-pinout.png
+   [11]: http://lingnik.com/assets/yaesu/yaesu-ct-m11-cable-pinout.png
    [12]: http://www.g4hfq.co.uk/links.html
-   [13]: http://www.lingnik.com/system/files/Yaesu_Cable_500px.jpg
-   [14]: http://www.lingnik.com/system/files/Yaesu_Bad_500px.jpg
+   [13]: http://lingnik.com/assets/yaesu/Yaesu_Cable_500px.jpg
+   [14]: http://lingnik.com/assets/yaesu/Yaesu_Bad_500px.jpg
    [15]: https://www.google.com/search?q=nmea%2B0183%2Bversion%2B3.01%2Bfiletype%3Apdf
    [16]: http://translate.google.com/translate?hl=en&amp;sl=ja&amp;u=http://www.posit.co.jp/seihin/pdf/GPS-72_J.pdf&amp;prev=/search%3Fq%3D%2522position%2522%2B%2522gps-72%2522%2B%252251281-0894%2522%2Bfiletype:pdf%2B-garmin%26hl%3Den%26safe%3Doff%26tbo%3Dd%26biw%3D1280%26bih%3D699&amp;sa=X&amp;ei=3RsXUfe9B4z2igLTpIDoCA&amp;ved=0CDYQ7gEwAA
    [17]: http://www.nmea.org/Assets/20120830%200183%20manufacturer%20codes.pdf
@@ -353,7 +353,7 @@ There's no easy way to find out what version of NMEA the VX-8DR (or VX-8GR) supp
    [19]: http://www.gpsinformation.org/dale/nmea.htm
    [20]: http://aprs.gids.nl/nmea/
    [21]: http://groups.yahoo.com/group/VX8R/message/1208
-   [22]: http://www.lingnik.com/system/files/Yaesu_Good_500px.jpg
+   [22]: http://lingnik.com/assets/yaesu/Yaesu_Good_500px.jpg
    [23]: http://www.worldwidedx.com/handitalkies/36965-vx-8r-setting-time-how.html
    [24]: http://www.arifidenza.it/forum/pop_printer_friendly.asp?ARCHIVE=true&amp;TOPIC_ID=161925
   
