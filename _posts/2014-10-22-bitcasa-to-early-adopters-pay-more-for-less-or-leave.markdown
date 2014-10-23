@@ -18,3 +18,5 @@ Existing users have until November 15, 2014 to choose a new plan or to download 
 > We understand that some users may not want to continue using the service. As always, your data is yours and you are free to download it and take it with you at any time. [...] Should you do nothing, your account will be closed and all data deleted on November 15, 2014.
 
 *Edit (2014-10-23 8:20AM): I previously reported that Bitcasa was doing away with their Infinite storage last year; in fact, they increased the price for their Infinite plan from $99/year to $999/year.*
+
+<!--adsense-bitcasa2-->

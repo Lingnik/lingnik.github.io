@@ -6,8 +6,23 @@ module Jekyll
 <div style="margin:20px 0;">
 <script type="text/javascript"><!--
 google_ad_client = "pub-0538590636658555";
-/* 728x15 CCFL #4, created 7/27/08 */
+/* 728x15 bitcasa #1, created 7/27/08 */
 google_ad_slot = "2360833618";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+},
+      :bitcasa2 => %Q{
+<div style="margin:20px 0;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0538590636658555";
+/* 728x15 bitcasa #2, created 7/27/08 */
+google_ad_slot = "9355648463";
 google_ad_width = 728;
 google_ad_height = 15;
 //-->
@@ -82,6 +97,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
     def adsense_replace(input)
       output = input
         .gsub(/<!--adsense-bitcasa1-->/, ADSENSE[:bitcasa1])
+        .gsub(/<!--adsense-bitcasa1-->/, ADSENSE[:bitcasa2])
         .gsub(/<!--adsense-ccfl1-->/, ADSENSE[:ccfl1])
         .gsub(/<!--adsense-ccfl2-->/, ADSENSE[:ccfl2])
         .gsub(/<!--adsense-ccfl3-->/, ADSENSE[:ccfl3])
