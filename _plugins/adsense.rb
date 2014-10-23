@@ -3,34 +3,26 @@ module Jekyll
   module AdsenseFilter
     ADSENSE = {
       :bitcasa1 => %Q{
-<div style="margin:20px 0;">
-<script type="text/javascript"><!--
-google_ad_client = "pub-0538590636658555";
-/* 728x15 bitcasa #1, created 7/27/08 */
-google_ad_slot = "2360833618";
-google_ad_width = 728;
-google_ad_height = 15;
-//-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bitcasa-middle -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-0538590636658555"
+     data-ad-slot="4358361709"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-},
+      },
       :bitcasa2 => %Q{
-<div style="margin:20px 0;">
-<script type="text/javascript"><!--
-google_ad_client = "pub-0538590636658555";
-/* 728x15 bitcasa #2, created 7/27/08 */
-google_ad_slot = "9355648463";
-google_ad_width = 728;
-google_ad_height = 15;
-//-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bitcasa-bottom -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-0538590636658555"
+     data-ad-slot="5835094904"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
 },
       :ccfl1 => %Q{
 <div style="margin:20px 0;">
