@@ -16,7 +16,7 @@ google_ad_height = 15;
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div>
-}
+},
       :ccfl1 => %Q{
 <div style="margin:20px 0;">
 <script type="text/javascript"><!--
