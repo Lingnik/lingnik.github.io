@@ -81,6 +81,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
     def adsense_replace(input)
       output = input
+        .gsub(/<!--adsense-bitcasa1-->/, ADSENSE[:bitcasa1])
         .gsub(/<!--adsense-ccfl1-->/, ADSENSE[:ccfl1])
         .gsub(/<!--adsense-ccfl2-->/, ADSENSE[:ccfl2])
         .gsub(/<!--adsense-ccfl3-->/, ADSENSE[:ccfl3])
