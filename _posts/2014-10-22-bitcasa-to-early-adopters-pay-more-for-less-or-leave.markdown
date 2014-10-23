@@ -20,3 +20,4 @@ Existing users have until November 15, 2014 to choose a new plan or to download 
 *Edit (2014-10-23 8:20AM): I previously reported that Bitcasa was doing away with their Infinite storage last year; in fact, they increased the price for their Infinite plan from $99/year to $999/year.*
 
 <!--adsense-bitcasa2-->
+
