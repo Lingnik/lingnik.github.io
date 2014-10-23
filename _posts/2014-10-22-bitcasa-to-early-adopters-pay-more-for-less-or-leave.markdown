@@ -11,6 +11,8 @@ From their [FAQ page](https://support.bitcasa.com/hc/en-us/articles/203936983) (
 
 > Bitcasa will no longer offer or support Infinite subscription plans. Current Infinite users must choose a new plan and accompanying storage limit. To meet the needs of users that require more than 5TB of storage, we are changing the storage limit for the Pro plan from 5TB to 10TB. Pricing for the Pro plan will increase from $49 per month to $99 per month for new subscriptions. These changes will not affect existing users. Existing Pro subscribers will continue on their current pricing and 5TB of storage. Existing Pro subscribers will also auto-renew at their current pricing and 5TB of storage.
 
+<!--adsense-bitcasa1-->
+
 Existing users have until November 15, 2014 to choose a new plan or to download their files and delete their account. Plans start at $10/month or $99/year for 1TB; or $99/month or $999/year for 10TB. These prices are in line with alternative offerings from Google and Dropbox, but higher than OneDrive. But if you choose not to transition to a new plan:
 
 > We understand that some users may not want to continue using the service. As always, your data is yours and you are free to download it and take it with you at any time. [...] Should you do nothing, your account will be closed and all data deleted on November 15, 2014.
