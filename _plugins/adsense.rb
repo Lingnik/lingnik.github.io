@@ -3,24 +3,25 @@ module Jekyll
   module AdsenseFilter
     ADSENSE = {
       :bitcasa1 => %Q{
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- bitcasa-middle -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:728px;height:90px"
      data-ad-client="ca-pub-0538590636658555"
      data-ad-slot="4358361709"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-      },
+},
       :bitcasa2 => %Q{
 <!-- bitcasa-bottom -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:728px;height:90px"
      data-ad-client="ca-pub-0538590636658555"
      data-ad-slot="5835094904"></ins>
+
 <script>
-(adsbygoogle = window.adsbygoogle || []).push({});
+//(adsbygoogle = window.adsbygoogle || []).push({});
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+[].forEach.call(document.querySelectorAll('.adsbygoogle'), function(){
+  (adsbygoogle = window.adsbygoogle || []).push({});
+});
 </script>
 },
       :ccfl1 => %Q{
