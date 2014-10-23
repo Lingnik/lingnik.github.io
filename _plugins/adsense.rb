@@ -16,12 +16,12 @@ module Jekyll
      data-ad-client="ca-pub-0538590636658555"
      data-ad-slot="5835094904"></ins>
 
-<script>
-//(adsbygoogle = window.adsbygoogle || []).push({});
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-[].forEach.call(document.querySelectorAll('.adsbygoogle'), function(){
-  (adsbygoogle = window.adsbygoogle || []).push({});
-});
+<script>
+  //(adsbygoogle = window.adsbygoogle || []).push({});
+  [].forEach.call(document.querySelectorAll('.adsbygoogle'), function(){
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  });
 </script>
 },
       :ccfl1 => %Q{
