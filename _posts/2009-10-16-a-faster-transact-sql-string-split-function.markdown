@@ -20,11 +20,17 @@ This works for small strings, but as the length of each column within your strin
     SET @Delimiter = ',';
     ----
     DECLARE @Start Integer, @NextDelimiter Integer, @Length Integer, @Number Integer;
-    SET @InputString = @InputString %2B @Delimiter;
+    SET @InputString = @InputString + @Delimiter;
     SET @Number = 1;
     SET @Start = 1;
     SET @Length = CHARINDEX(@Delimiter,@InputString,0) - 1;
     WHILE @Start
+    BEGIN
+        INSERT @ResultTable VALUES(@Number, SUBSTRING(@InputString, @Start, @Length));
+        SET @Number = @Number + 1;
+        SET @Start = @Start + @Length + LEN(@Delimiter);
+        SET @Length = CHARINDEX(@Delimiter,@InputString,@Start) - @Start;
+    END
 
 Here are my results from testing these two methods:
 
