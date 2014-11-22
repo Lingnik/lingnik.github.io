@@ -799,11 +799,17 @@ SET @InputString = &#39;1,2,3,4,5,6,7,8,9,0&#39;;
 SET @Delimiter = &#39;,&#39;;
 ----
 DECLARE @Start Integer, @NextDelimiter Integer, @Length Integer, @Number Integer;
-SET @InputString = @InputString %2B @Delimiter;
+SET @InputString = @InputString + @Delimiter;
 SET @Number = 1;
 SET @Start = 1;
 SET @Length = CHARINDEX(@Delimiter,@InputString,0) - 1;
 WHILE @Start
+BEGIN
+    INSERT @ResultTable VALUES(@Number, SUBSTRING(@InputString, @Start, @Length));
+    SET @Number = @Number + 1;
+    SET @Start = @Start + @Length + LEN(@Delimiter);
+    SET @Length = CHARINDEX(@Delimiter,@InputString,@Start) - @Start;
+END
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Here are my results from testing these two methods:&lt;/p&gt;
