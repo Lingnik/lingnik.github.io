@@ -2,6 +2,7 @@
 layout: post
 title:  "Feature Detection in the Visual Pattern Recognition of Reading"
 date:   2009-10-19 21:49:00
+excerpt: "I gave a guest lecture on feature detection and visual pattern recognition in Dr. Thomas Dieterich's class on Linguistics and Cognitive Science at PSU in 2009."
 alias: [/visual-pattern-recognition/index.html]
 ---
 
