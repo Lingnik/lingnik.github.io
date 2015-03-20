@@ -874,7 +874,9 @@ END
     
       <item>
         <title>Vowel Inventory Formant Mapping with Praat</title>
-        <description>&lt;p&gt;In 2008, as a project for my Applied Linguistics inventory course, I looked at the possibility of automating Praat to find and map the vowel inventory of an individual. The files below represent the entirety of that work, which was inconclusive, though it represents one method of extracting formants from Praat into Excel.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;../../../assets/praat.png&quot; alt=&quot;Praat formant chart&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2008, as a project for my Applied Linguistics inventory course, I looked at the possibility of automating Praat to find and map the vowel inventory of an individual. The files below represent the entirety of that work, which was inconclusive, though it represents one method of extracting formants from Praat into Excel.&lt;/p&gt;
 
 &lt;h4 id=&quot;files&quot;&gt;Files:&lt;/h4&gt;
 &lt;ul&gt;
