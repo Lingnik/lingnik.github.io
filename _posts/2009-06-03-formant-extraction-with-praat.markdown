@@ -4,7 +4,7 @@ title:  "Vowel Inventory Formant Mapping with Praat"
 date:   2009-06-02 21:49:00
 image: "/assets/praat.png"
 excerpt: "In Spring, 2008, as a project for my Applied Linguistics course, I looked at the potential of scripting Praat to find and map the inventory of an individual."
-alias: [/projects/formantinventory/index.html]
+alias: [/projects/formantinventory/index.html, /praat.html]
 ---
 
 <img src="../../../assets/praat.png" alt="Praat formant chart" style="width: 250px;" />
