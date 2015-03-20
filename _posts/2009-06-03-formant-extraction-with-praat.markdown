@@ -5,7 +5,7 @@ date:   2009-06-02 21:49:00
 alias: [/projects/formantinventory/index.html]
 ---
 
-![Praat formant chart](../../../assets/praat.png =250px)
+![Praat formant chart](../../../assets/praat.png =250x)
 
 In 2008, as a project for my Applied Linguistics inventory course, I looked at the possibility of automating Praat to find and map the vowel inventory of an individual. The files below represent the entirety of that work, which was inconclusive, though it represents one method of extracting formants from Praat into Excel.
 
