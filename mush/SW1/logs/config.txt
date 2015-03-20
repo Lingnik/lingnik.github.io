@@ -1,0 +1,5 @@
+sname: BazLogs
+lname: Bazil's RP Logs
+pedit: True 
+owner: Bazil McKenzie
+logdir: lxx
