@@ -5,6 +5,10 @@ date:   2014-09-22 20:00:00
 alias: [/content/is-earl-sqigles-crowdfunded-tablet-project-legitimate/index.html]
 ---
 
+*[Update 2017-02-19: De mortuis nihil nisi bonum.](http://forum.meetearl.com/t/survey/1465)*
+
+<s>
+
 {:toc}
 
 ***Update 2014-01-22:*** Todd Cady met up with Jonathan Perry in Spokane, WA while Jon was visiting the states, and posted a candid review of the current state of development. [The video was posted on YouTube last night.](https://www.youtube.com/watch?v=ktw-baN-sTI&feature=youtu.be) Enjoy!
@@ -98,3 +102,5 @@ Time will tell if Jon's team starts updating more frequently, and whether the ca
 [^2]: <http://www.foxnews.com/tech/2013/08/06/kickstopped-75-percent-projects-delayed-on-crowdfunding-site/>
 [^3]: <http://www.pbs.org/mediashift/2013/12/world-bank-crowdfunding-investment-market-to-hit-93-billion-by-2025/>
 [^4]: <http://en.wikipedia.org/wiki/Shenzhen>
+
+</s>
