@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lingnik : Taylor J. Meek</title>
-    <description>Taylor is a software engineer and linguist living in Portland, OR who fancies the outdoors. He currently works for Iberdrola Renewables, the world&#39;s largest wind power owner-operator, as a SCADA analyst.</description>
+    <description>Taylor is a software engineer and linguist living in Portland, OR who fancies the outdoors. He currently works for CloudBolt Software, where his team of Python engineers builds an enterprise Cloud Management Platform.</description>
     <link>http://lingnik.com</link>
     <atom:link href="http://lingnik.com/feed.xml" rel="self" type="application/rss+xml" />
     
