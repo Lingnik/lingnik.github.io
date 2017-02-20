@@ -5,7 +5,7 @@ permalink: /about/
 alias: [/about.htm, /resume.htm, /resume/index.html, /profession/index.html, /profession/resume/index.html]
 ---
 
-![Taylor J. Meek : Lingnik]({{ site.url }}/assets/taylor-meek.jpg)
+![Taylor J. Meek : Lingnik](https://www.gravatar.com/avatar/87b4f3fdb782126274ee6157c36c9352?s=150)
 
 I believe in using technology, through the application of sound software
 engineering practices, to solve problems. *Software Engineer* puts too much
