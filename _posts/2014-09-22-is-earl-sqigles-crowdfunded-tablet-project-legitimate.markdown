@@ -7,7 +7,7 @@ alias: [/content/is-earl-sqigles-crowdfunded-tablet-project-legitimate/index.htm
 
 *[Update 2017-02-19: De mortuis nihil nisi bonum.](http://forum.meetearl.com/t/survey/1465)*
 
-<s>
+<s style="color:silver;">
 
 {:toc}
 
@@ -56,7 +56,6 @@ Since those delays, backer updates show that development is back on track (altho
 
 In these situations, there seems to be a direct correlation between frequency of backer updates and campaign success (and, I would personally argue, backer satisfaction). [Seriously, people study these things these days.](http://homes.cs.washington.edu/~wenhuang/pub/CHI2014_Xu.pdf) But in Earl's case, early communication slipped way to the occasional monthly update, and backer annoyance became a common thread of Twitter updates, as backers began probing the company to post updates.
 
-<div class="dipity_embed" style="width:800px"><iframe width="800" height="400" src="http://www.dipity.com/lingnik/Meet-Earl/?mode=embed&z=2yr#tl" style="border:1px solid #CCC;"></iframe></div>
 [Meet Earl](http://www.dipity.com/lingnik/Meet-Earl/) on [Dipity](http://dipity.com/)
  - *The above timeline shows Earl's email updates and [updates posted to their website](http://www.meetearl.com/updates/), which have grown further and further apart over time. Email updates have ceased entirely.*
 

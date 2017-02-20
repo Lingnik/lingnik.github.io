@@ -7,7 +7,7 @@ alias: [/content/bitcasa-to-early-adopters-pay-more-for-less-or-leave/index.html
 
 *[Update 2017-02-19: De mortuis nihil nisi bonum.](http://fortune.com/2017/01/06/bitcasa-calls-it-quits/)*
 
-<s>
+<s style="color:silver;">
 
 At TechCrunch Disrupt on September 12th, 2011, Bitcasa [launched](http://thenextweb.com/apps/2011/09/23/bitcasa-infinite-storage-comes-to-your-desktop-but-so-do-big-questions/) their encrypted "Infinite Drive" cloud storage offering for $10/month (after the end of their beta program). Last year, on November 19, 2013, the company announced that it was increasing the price for its Infinite plan from $99/year to $999/year, but would allow existing Infinite users to keep paying $99/year at the expense of not receiving new features, such as Bitcasa's Linux client. Today, Bitcasa has announced that they are severing the cord permanently for their early adopters by forcing all Infinite Drive customers onto a non-infinite plan.
 
