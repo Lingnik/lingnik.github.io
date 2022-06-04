@@ -10,9 +10,8 @@ username: lingnik
 timezone: America/Los_Angeles
 locale: en_us
 
-author:
-  facebook: lingnik
-  twitter: lingnik
+author: Taylor J. Meek
+twitter: lingnik
 # googleplus: lingnik
 #fb_admins
 #fb_appid
@@ -24,5 +23,8 @@ safe: false
 exclude: build.bash
 
 #Build settings
-markdown: kramdown
 permalinks: pretty
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
