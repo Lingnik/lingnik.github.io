@@ -10,7 +10,7 @@ excerpt: "Wherein I write about being a manager and how I realized I want to go 
 
 *This was my choice, no-one else’s, and I was not pressured into it. I’m staying on The Team because I love it here, and I’m excited about our next chapter together. The gist is, $big_scary_incident reminded me how much I love troubleshooting, research+writing work, and writing code. That was pretty sweet. See you in GitHub!*
 
-A brief primer on me: 19 years ago, I entered tech. Not Tech™ tech. Just an Oregon SMB you’ve never heard of. They needed some DB and desktop development, regular report-running, desktop support, and a dash of field support. Was I a Business Analyst? Programmer? IT Manager? Who knows. I got to make up whatever title I wanted. They didn’t care. In the grand scheme of things, the title really didn’t matter.
+A brief primer on me: 19 years ago, I entered tech. Not Tech™ tech. Just an Oregon retail business you’ve never heard of. They needed some DB and desktop development, regular report-running, desktop support, and a dash of field support. Was I a Business Analyst? Programmer? IT Manager? Who knows. I got to make up whatever title I wanted. They didn’t care. In the grand scheme of things, the title really didn’t matter.
 
 Twelve years of slinging code and hand-carving infra later (and several companies), I was confidently calling myself a Software Engineer. This isn’t a story about those twelve years, but rather the seven that followed as a Software Engineering Manager. This is:
 1. A story about deciding to pivot into Management, and what happened next.
@@ -21,7 +21,7 @@ Twelve years of slinging code and hand-carving infra later (and several companie
 How’d I get into management in the first place? Well, after twelve years as an Engineer, I got frustrated…
 
 #### I used to be an engineer.
-Eight years ago, I’m at a renewable energy company. (You haven’t heard of them.) EMS-SCADA systems, time-series databases, and a bunch of infra and ops. Just finished Giant Compliance Automation Project and Disaster Recovery/Business Continuity Project From Hell (won the “D.R. Prepper” award for that) and 😅 I need a break from that. Free cycles and a successful run gives me the street cred to go off and solve a problem that has been brewing in my head for a while. I spike out a proof of concept: $automate_thing. Pitch $automate_more_things to The People In Charge. Use all my Engineer Jedi Mind Tricks but fail my persuasion check. Headcount can’t magically appear, and there’s resistance. Lots of resistance. Bummer, but hang on here…
+Eight years ago, I’m at a renewable energy company. (You haven’t heard of them, either.) EMS-SCADA systems, time-series databases, and a bunch of infra and ops. Just finished Giant Compliance Automation Project and Disaster Recovery/Business Continuity Project From Hell (won the “D.R. Prepper” award for that) and 😅 I need a break from that. Free cycles and a successful run gives me the street cred to go off and solve a problem that has been brewing in my head for a while. I spike out a proof of concept: $automate_thing. Pitch $automate_more_things to The People In Charge. Use all my Engineer Jedi Mind Tricks but fail my persuasion check. Headcount can’t magically appear, and there’s resistance. Lots of resistance. Bummer, but hang on here…
 
 💡 These people with the Manager title seem to get their way a lot! (And they get paid more![^1]) I should go be one of them.
 
