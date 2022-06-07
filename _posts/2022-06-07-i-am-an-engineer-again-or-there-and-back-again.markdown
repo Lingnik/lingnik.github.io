@@ -50,7 +50,7 @@ When they succeeded, it was marvelous! When they failed… they learned. They di
 
 #### What do you do when you give away all your magic wands?
 
-At some point, the work got… dull. My vision and strategy for the team was underway. We had some projects, some roadmaps, and lots of interesting things to go work on. I watched as engineers got to thrive in the work of design docs, PRs, mentoring each other, and working with our customers. And… I got a bit jealous. In giving everything interesting away, I had left only the dull work for myself: the expense reports, the offsite planning, the talent reviews and promotion packets, the continuous cycle of check-ins and planning.
+At some point, the work of management felt… dull. My vision and strategy for the team was underway. We had some projects, some roadmaps, and lots of interesting things to go work on. I watched as engineers got to thrive in the work of design docs, PRs, mentoring each other, and working with our customers. And… I got a bit jealous. In giving everything fun away, I had left only the dull work for myself[^4]: the expense reports, the offsite planning, the talent reviews and promotion packets, the continuous cycle of check-ins and planning.
 
 All very important work, but not work that sparked joy in me. The work felt grueling sometimes, and stressful, and I had to work with a psychiatrist, a BetterUp coach, and an executive mindfulness coach to process all the myriad reactions I was having about work. I knew I needed a change again, but I wasn’t sure what yet. I had known since November. I didn’t know what I wanted. It took me a looooong time to process all of that.
 
@@ -76,4 +76,4 @@ In retrospect, would I have chosen to be a manager again? Yeah. Totally would. I
 [^1]: Not all companies. Companies that optimize for the Engineer>Manager transition as the only path to making more money or working on more complex things are, IMHO, either lower-margin companies who can't justify paying ICs more based on their business model or … are doing it wrong. Or both. Don't make people take a job they don't want as the sole means of career growth.
 [^2]: I'm writing some internal Heroku Fanfic where an assortment of other Herokai and I are drafting one possible future. Keep your eyes peeled here for job openings and join us if you want to help pave this future: <https://heroku.com/careers>
 [^3]: Not all in a bad way! There were some genuinely beautiful moments of the gig, and a lot of good things happened for our team and for our customers as a result of the work I got to lead.
-
+[^4]: This is not to say the work was not rewarding. I thoroughly enjoyed seeing the outcomes of the work, I just didn't like the process of getting there. Compare: I love seeing the outcome of a hard technical problem, but I also love the process of building it along the way.
