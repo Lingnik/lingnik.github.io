@@ -2,7 +2,7 @@
 layout: post
 title:  "I'm an Engineer Again: Or, There and Back Again"
 redirect_from:
-  - /i-am-an-engineer-again
+  - /i-am-an-engineer-again/
 date:   2022-06-07 08:00:00
 image: "/assets/i-should-blog.png"
 excerpt: "Wherein I write about being a manager and how I realized I want to go back to being an Engineer. For now."
