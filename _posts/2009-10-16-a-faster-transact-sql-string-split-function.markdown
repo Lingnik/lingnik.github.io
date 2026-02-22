@@ -3,7 +3,7 @@ layout: post
 title:  "A Fast(er) Transact-SQL String Split() Function"
 date:   2009-10-16 11:12:00
 excerpt: "SQL Server 2005 has no Split(string,delim) function, so here's one fairly fast method that can be implemented as function without relying on XML hacks."
-alias: [/blog/a-faster-transact-sql-string-split-function/index.html]
+redirect_from: [/blog/a-faster-transact-sql-string-split-function/index.html]
 ---
 
 **UPDATE 2014-05-07:** Aaron Bertrand put this topic to bed [here](http://sqlperformance.com/2012/07/t-sql-queries/split-strings).
