@@ -16,11 +16,10 @@ twitter: lingnik
 #fb_admins
 #fb_appid
 
-source: ./
-destination: ../master
-safe: false
-
-exclude: build.bash
+exclude:
+  - build.bash
+  - Gemfile
+  - Gemfile.lock
 
 #Build settings
 permalinks: pretty
@@ -28,3 +27,4 @@ markdown: kramdown
 
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
