@@ -11,7 +11,7 @@ redirect_from: [/projects.htm, /resume.htm, /journal.htm, /programs.htm, /contac
     {% for post in site.posts %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+        <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
