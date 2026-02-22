@@ -8,7 +8,7 @@
       <ul>
         {% for page in site.pages %}
         <li>
-          <a class="page-link" href="{{ page.url | prepend: site.url }}">{{ page.title }}</a>
+          <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
         </li>
         {% endfor %}
         <li>
@@ -24,7 +24,7 @@
             </span>
           </a></p>
         </li>
-        <li><a style="color:silver;" href="more.htm">Ω</a></li>
+        <li><a style="color:silver;" href="/more.htm">Ω</a></li>
       </ul>
     </div>
 
