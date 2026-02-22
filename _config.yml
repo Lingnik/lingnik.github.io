@@ -23,7 +23,7 @@ exclude:
   - vendor
 
 #Build settings
-permalinks: pretty
+permalink: pretty
 markdown: kramdown
 
 plugins:
