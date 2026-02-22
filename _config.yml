@@ -20,6 +20,7 @@ exclude:
   - build.bash
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 #Build settings
 permalinks: pretty
